@@ -250,35 +250,62 @@ var render = function () {
   var _c = _vm._self._c || _h
   return _c(
     "uni-view",
-    { staticClass: _vm._$g(0, "sc"), attrs: { _i: 0 } },
+    { staticClass: _vm._$g(0, "sc"), class: _vm._$g(0, "c"), attrs: { _i: 0 } },
     [
       _c(
         "uni-view",
         { staticClass: _vm._$g(1, "sc"), attrs: { _i: 1 } },
         [
           _c(
-            "v-uni-text",
+            "uni-view",
             { staticClass: _vm._$g(2, "sc"), attrs: { _i: 2 } },
-            [_vm._v(" AI assistant")]
+            [
+              _c(
+                "v-uni-text",
+                { staticClass: _vm._$g(3, "sc"), attrs: { _i: 3 } },
+                [_vm._v("全能 AI 助手")]
+              ),
+              _c(
+                "v-uni-text",
+                { staticClass: _vm._$g(4, "sc"), attrs: { _i: 4 } },
+                [_vm._v("Designed By XZJ")]
+              ),
+            ],
+            1
           ),
           _c(
-            "v-uni-text",
-            { staticClass: _vm._$g(3, "sc"), attrs: { _i: 3 } },
-            [_vm._v("Designed By XZJ")]
+            "uni-view",
+            {
+              staticClass: _vm._$g(5, "sc"),
+              attrs: { _i: 5 },
+              on: {
+                click: function ($event) {
+                  return _vm.$handleViewEvent($event)
+                },
+              },
+            },
+            [
+              _c(
+                "v-uni-text",
+                { staticClass: _vm._$g(6, "sc"), attrs: { _i: 6 } },
+                [_vm._v(_vm._$g(6, "t0-0"))]
+              ),
+            ],
+            1
           ),
         ],
         1
       ),
       _c(
         "uni-view",
-        { staticClass: _vm._$g(4, "sc"), attrs: { _i: 4 } },
-        _vm._l(_vm._$g(5, "f"), function (item, index, $20, $30) {
+        { staticClass: _vm._$g(7, "sc"), attrs: { _i: 7 } },
+        _vm._l(_vm._$g(8, "f"), function (item, index, $20, $30) {
           return _c(
             "uni-view",
             {
               key: item,
-              staticClass: _vm._$g("5-" + $30, "sc"),
-              attrs: { _i: "5-" + $30 },
+              staticClass: _vm._$g("8-" + $30, "sc"),
+              attrs: { _i: "8-" + $30 },
               on: {
                 click: function ($event) {
                   return _vm.$handleViewEvent($event)
@@ -289,41 +316,41 @@ var render = function () {
               _c(
                 "uni-view",
                 {
-                  staticClass: _vm._$g("6-" + $30, "sc"),
-                  attrs: { _i: "6-" + $30 },
+                  staticClass: _vm._$g("9-" + $30, "sc"),
+                  attrs: { _i: "9-" + $30 },
                 },
                 [
                   _c("v-uni-image", {
-                    staticClass: _vm._$g("7-" + $30, "sc"),
+                    staticClass: _vm._$g("10-" + $30, "sc"),
                     attrs: {
-                      src: _vm._$g("7-" + $30, "a-src"),
+                      src: _vm._$g("10-" + $30, "a-src"),
                       mode: "aspectFit",
-                      _i: "7-" + $30,
+                      _i: "10-" + $30,
                     },
                   }),
                   _c(
                     "uni-view",
                     {
-                      staticClass: _vm._$g("8-" + $30, "sc"),
-                      attrs: { _i: "8-" + $30 },
+                      staticClass: _vm._$g("11-" + $30, "sc"),
+                      attrs: { _i: "11-" + $30 },
                     },
                     [
                       _c(
                         "v-uni-text",
                         {
-                          staticClass: _vm._$g("9-" + $30, "sc"),
-                          style: _vm._$g("9-" + $30, "s"),
-                          attrs: { _i: "9-" + $30 },
+                          staticClass: _vm._$g("12-" + $30, "sc"),
+                          style: _vm._$g("12-" + $30, "s"),
+                          attrs: { _i: "12-" + $30 },
                         },
-                        [_vm._v(_vm._$g("9-" + $30, "t0-0"))]
+                        [_vm._v(_vm._$g("12-" + $30, "t0-0"))]
                       ),
                       _c(
                         "v-uni-text",
                         {
-                          staticClass: _vm._$g("10-" + $30, "sc"),
-                          attrs: { _i: "10-" + $30 },
+                          staticClass: _vm._$g("13-" + $30, "sc"),
+                          attrs: { _i: "13-" + $30 },
                         },
-                        [_vm._v(_vm._$g("10-" + $30, "t0-0"))]
+                        [_vm._v(_vm._$g("13-" + $30, "t0-0"))]
                       ),
                     ],
                     1
@@ -334,9 +361,9 @@ var render = function () {
               _c(
                 "v-uni-text",
                 {
-                  staticClass: _vm._$g("11-" + $30, "sc"),
-                  style: _vm._$g("11-" + $30, "s"),
-                  attrs: { _i: "11-" + $30 },
+                  staticClass: _vm._$g("14-" + $30, "sc"),
+                  style: _vm._$g("14-" + $30, "s"),
+                  attrs: { _i: "14-" + $30 },
                 },
                 [_vm._v("进入 >")]
               ),
@@ -444,7 +471,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* 页面整体背景 */\nbody { background-color: #f7f8fa;\n}\n.container { padding: 20px;\n}\n/* 头部样式 */\n.header { margin-top: 20px; margin-bottom: 25px; padding-left: 5px;}\n.app-title { font-size: 26px; font-weight: 900; color: #333; display: block; margin-bottom: 8px;\n}\n.app-desc { font-size: 13px; color: #999; letter-spacing: 1px;}\n/* 列表容器 */\n.grid-container { display: flex; flex-direction: column; gap: 16px;\n}\n/* 卡片样式 */\n.card {\n\tbackground-color: #ffffff;\n\tpadding: 18px;\n\tborder-radius: 16px;\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: center;\n\tbox-shadow: 0 8px 20px rgba(0,0,0,0.03);\n\tborder: 1px solid #f0f0f0;\n\ttransition: -webkit-transform 0.1s;\n\ttransition: transform 0.1s;\n\ttransition: transform 0.1s, -webkit-transform 0.1s;\n}\n.card:active { -webkit-transform: scale(0.98); transform: scale(0.98); background-color: #fcfcfc;\n}\n/* 左侧布局：图标+文字 */\n.card-left {\n\tdisplay: flex;\n\talign-items: center;\n}\n/* 图标样式 */\n.card-logo {\n\twidth: 44px;\n\theight: 44px;\n\tmargin-right: 15px;\n\tborder-radius: 10px;\n\tbackground-color: #f9f9f9;\n}\n/* 文字信息 */\n.card-info { display: flex; flex-direction: column;\n}\n.card-name { font-size: 17px; font-weight: bold; margin-bottom: 4px;\n}\n.card-tag { font-size: 12px; color: #aaa;\n}\n/* 右侧箭头 */\n.go-icon { font-size: 13px; font-weight: bold; opacity: 0.8;\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* 页面根样式 */\nbody { \n\t/* 移除原来的背景色，交给 container 控制 */\n\tbackground-color: transparent;\n}\n/* 默认容器样式 (浅色模式) */\n.container { \n\tpadding: 20px; \n\tmin-height: 100vh; /* 铺满全屏 */\n\tbackground-color: #f7f8fa; \n\ttransition: background-color 0.3s; /* 颜色切换时的过渡动画 */\n}\n/* 头部左右布局 */\n.header-row {\n\tmargin-top: 20px;\n\tmargin-bottom: 25px;\n\tdisplay: flex;\n\tjustify-content: space-between; /* 左右分开 */\n\talign-items: center;\n}\n.app-title { font-size: 26px; font-weight: 900; color: #333; display: block; margin-bottom: 4px; transition: color 0.3s;}\n.app-desc { font-size: 13px; color: #999; letter-spacing: 1px;}\n/* 切换按钮样式 */\n.theme-btn {\n\twidth: 40px;\n\theight: 40px;\n\tbackground-color: #eee;\n\tborder-radius: 50%;\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\tbox-shadow: 0 2px 5px rgba(0,0,0,0.1);\n}\n.theme-icon { font-size: 20px;\n}\n/* 列表容器 */\n.grid-container { display: flex; flex-direction: column; gap: 16px;\n}\n/* 卡片样式 */\n.card {\n\tbackground-color: #ffffff;\n\tpadding: 18px;\n\tborder-radius: 16px;\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: center;\n\tbox-shadow: 0 8px 20px rgba(0,0,0,0.03);\n\tborder: 1px solid #f0f0f0;\n\ttransition: all 0.3s; /* 所有属性都带动画 */\n}\n.card:active { -webkit-transform: scale(0.98); transform: scale(0.98);\n}\n.card-left { display: flex; align-items: center;\n}\n.card-logo {\n\twidth: 44px;\n\theight: 44px;\n\tmargin-right: 15px;\n\tborder-radius: 10px;\n\tbackground-color: #f9f9f9;\n}\n.card-info { display: flex; flex-direction: column;\n}\n.card-name { font-size: 17px; font-weight: bold; margin-bottom: 4px; transition: color 0.3s;\n}\n.card-tag { font-size: 12px; color: #aaa;\n}\n.go-icon { font-size: 13px; font-weight: bold; opacity: 0.8;\n}\n/* ============================== */\n/* 🌑 深色模式样式 (Dark Mode)     */\n/* ============================== */\n/* 背景变深黑 */\n.container.dark-theme {\n\tbackground-color: #121212;\n}\n/* 标题变白 */\n.dark-theme .app-title {\n\tcolor: #ffffff;\n}\n/* 按钮变暗 */\n.dark-theme .theme-btn {\n\tbackground-color: #333;\n\tbox-shadow: 0 2px 5px rgba(255,255,255,0.1);\n}\n/* 卡片变深灰 */\n.dark-theme .card {\n\tbackground-color: #1e1e1e;\n\tborder-color: #333;\n\tbox-shadow: none;\n}\n/* 图标背景变暗 */\n.dark-theme .card-logo {\n\tbackground-color: #2c2c2c;\n\topacity: 0.9;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
